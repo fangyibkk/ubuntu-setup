@@ -2,8 +2,9 @@
 Ubuntu machine setup for web development
 
 ## Essential
+You need compiling C at sometimes and you definitely need git
 ```
-sudo apt install git
+sudo apt install git build-essential
 ```
 ## General Utils
 Clipboard in terminal
