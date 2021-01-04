@@ -72,3 +72,8 @@ Copy to `/usr/local/share/fonts` then force the cache
 ```
 fc-cache -fv
 ```
+## Autofocus
+I prefer not to click
+```
+gsettings set org.gnome.desktop.wm.preferences focus-mode 'sloppy'
+```
