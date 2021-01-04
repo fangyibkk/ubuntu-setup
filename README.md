@@ -52,6 +52,7 @@ sudo apt-get update
 sudo apt-get install docker-ce docker-ce-cli containerd.io
 sudo docker run hello-world
 sudo usermod -aG docker <your-user> // solve permission problem
+newgrp docker // force re-evaluate to login to the new group
 ```
 
 compose is merely download binary and move to the binary dir
